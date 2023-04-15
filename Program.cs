@@ -29,7 +29,7 @@ namespace task4
                             break;
                         case 2:
                             answers = readAnswers();
-                            Console.Write("Input a number of number of correct programs: ");
+                            Console.Write("Input a number of correct programs: ");
                             int numberOfCorrectPrograms = int.Parse(Console.ReadLine());
                             if (numberOfCorrectPrograms <= int.Parse(answers[1]))
                             {
@@ -38,7 +38,7 @@ namespace task4
                             }
                             else
                             {
-                                Console.WriteLine("Number of correct programs should be less than number of all programs!");
+                                Console.WriteLine("A number of correct programs should be less than number of all programs!");
                                 Environment.Exit(-1);
                             }
                             break;
